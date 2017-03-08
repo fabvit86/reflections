@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Showing only the lines that changed between the two files, it reduced the time needed to pinpoint the errors.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    You can easily go back to old version of the file, which is particularly useful if the recent versions file contain bugs.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    The pros are that you are the one that decides when a change is worth a commit. The cons are that you may forget to commit an important change, or you commit useless changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It's useful to track changes to multiple files in a single commit in programming language orientated VCS.
+
+How can you use the commands git log and git diff to view the history of files?
+	
+	git log shows the entire history of all the commits that have been made in the repository. Adding --stat shows the files that have been changed, added or removed in every commit, and the number of changes to each file.
+	git diff oldcommitID newcommitID lets you compare two different commits, showing the changes for every file that happened between the two commits.
+    
+
+How might using version control make you more confident to make changes that could break something?
+
+    The ability to restore old versions of a repository enables you to make changes without thinking too much on how to recover if those changes break something, because you can always go back to a previous version and easily pinpoint the errors.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Try using git on some of my old and new projects.
+
+Compare two commits, printing each line that is present in one commit but not the other.
+
+	git diff will do this. It takes two arguments - the two commit ids to compare. 
+
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+
+	git clone will do this. It takes one argument - the url of the repository to copy. 
+
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+	git checkout will do this. It takes one argument - the commit ID to restore. 
+
+
+Show the commits made in this repository, starting with the most recent.
+
+	git log will do this. It doesn't take any arguments.
