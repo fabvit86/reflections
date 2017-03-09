@@ -24,3 +24,4 @@ What is the result of merging two branches together? Why do we represent it in t
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
+	Git's automatic merging enables you to speed up the merging process, letting git to take care of everything, but it's important to solve the conflicts manually because git can't always know which version of a modified files needs to be included in the merged branch.
