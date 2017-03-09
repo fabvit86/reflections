@@ -8,7 +8,7 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-
+	Adding only the files logically interconnected to the staging area, you can then commit only those files, while leaving the others to a next commit.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
