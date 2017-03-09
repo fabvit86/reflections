@@ -16,7 +16,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 
-
+	They help you understanding if a particular branch has a commit or not, so it's easier to see the differences between branches.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
